@@ -10,13 +10,13 @@ document.getElementById("btnNo").addEventListener("mouseover", function () {
 document.getElementById("btnSi").addEventListener("click", function () {
   Swal.fire({
     position: "top-center",
-    title: "Soy el hombre mas feliz del mundo🥰",
+    title: "Soy el hombre mas feliz del mundo gracias a ti amor🥰",
     showConfirmButton: false,
     timer: 1500,
   });
 
   var parrafo = document.querySelector("#cuadroDialogo p");
-  parrafo.textContent = "El inicio de una hermosa historia ha comenzado...";
+  parrafo.textContent = "El inicio de una hermosa historia ha comenzado...Junto a ti bb";
   document.getElementById("btnNo").style.display = "none";
 
   window.requestAnimationFrame =
@@ -187,7 +187,7 @@ document.getElementById("btnSi").addEventListener("click", function () {
 
 document.getElementById("btnNo").addEventListener("click", function () {
   Swal.fire({
-    imageUrl: "https://trneodavo.000webhostapp.com/meme/meme%20salvador.png",
+    imageUrl: "llorando.webp",
     imageHeight: 350,
     imageAlt: "A tall image",
   });
